@@ -28,7 +28,7 @@ class Header extends Component {
             </a>
           `
         : html`
-            <a class="flex flex-row items-center" href="/">
+            <a class="flex flex-row items-center">
               <img
                 alt="${this.state.translate('title')}"
                 src="${assets.get('icon.svg')}"
